@@ -1,0 +1,42 @@
+
+  body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 18px;
+    width: 900px;
+  };
+
+  h1{
+      font-size: 37 px;
+      line-height: 46px;
+      font-family: tahoma, Helvetica, sans-serif;
+      color: #000000;
+  };
+
+  h2{
+      font-size: 25px;
+      line-height: 38px;
+      font-family: tahoma, Helvetica, sans-serif;
+  };
+
+  h3{
+      font-size: 18px;
+      Color: #666;
+  }
+
+  p{
+      font-size: 18px;
+      line-height: 27px;
+      color: #333;
+  }
+
+  .pintarDeRojo {
+      color: red;
+  }
+
+  #tituloPrincipal {
+      color: blue;
+  }
+
+  #otroId {
+
+  }
