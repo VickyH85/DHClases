@@ -11,14 +11,6 @@ const controller = {
 	root: (req, res) => {
 		let html = readHTML('index');
 		res.send(html);
-	},
-	contacto: (req, res) => {
-		let htmlContacto = readHTML('contacto');
-		res.send(htmlContacto);
-	},
-	ejercicio1: (req, res) => {
-		let htmlEjercicio1 = readHTML('ejercicio1');
-		res.send(htmlEjercicio1);
 	}
 };
 
