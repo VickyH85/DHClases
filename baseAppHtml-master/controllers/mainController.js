@@ -11,6 +11,14 @@ const controller = {
 	root: (req, res) => {
 		let html = readHTML('index');
 		res.send(html);
+	},
+	contacto: (req, res) => {
+		let html = readHTML('contacto');
+		res.send(html);
+	},
+	restaurante: (req, res) => {
+		let html = readHTML('restaurante26Nov');
+		res.send(html);
 	}
 };
 
