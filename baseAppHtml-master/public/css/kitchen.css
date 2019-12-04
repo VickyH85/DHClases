@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max width: 320px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+/* CABECERA */
+.main-header {
+    width: 100%;
+}
+
+.logo {
+    position: relative;
+    left: 25%;
+    border-radius: 100px;
+}
+
+.main-nav {
+    width: 50%;
+    position: relative;
+    border: solid green 3px;
+    position: relative;
+    left: 25%;
+}
+
+.main-nav li {
+   
+}
+
+
+
+.banner img {
+    width: 100%;
+}
