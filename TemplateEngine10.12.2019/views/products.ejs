@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Products</title>
+
+    <style>
+        li {
+            display: inline-block
+        }
+        .in-sale {
+            border: solid red 2px
+        }
+    </style>
+
+</head>
+<body>   
+    <% products.forEach(function (oneProduct) { %>
+    <li class="<%= oneProduct.inSale ? "in-sale" : null %>" >
+       <h2> <%= oneProduct.name %> </h2> 
+       <h3> Precio: $<%= oneProduct.precio %> </h3>
+       <a href="/products/<%= oneProduct.id%>">VER DETALLE</a>
+    </li>
+        
+   <% }) %>
+</body>
+</html>

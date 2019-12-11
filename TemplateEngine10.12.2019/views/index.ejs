@@ -15,11 +15,19 @@
     <%} %>
 -->
 
+<!--
     <% ['Juanita', 'Pedrito', 'Maria'].forEach(function (persona){ %>
         <h2> Hola <%= persona %></h2>
         
      <%  }); %>
+-->
 
+
+<% if (trajoFacturas) { %>
+    <h2>EL docente más copado es <%= docente %> porque trajo facturas. Y quienes más comieron fueron: </h2>
+    <% } else { %>
+    <h2>Che <%= docente %> y las Facturas?</h2>
+<% } %>
 
 </body>
 </html>
