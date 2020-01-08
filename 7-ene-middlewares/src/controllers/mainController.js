@@ -13,6 +13,10 @@ const controller = {
 		let html = readHTML('index');
 		res.send(html);
 	},
+	admin: (req, res) => {
+		let html = readHTML('admin');
+		res.send(html);
+	},
 };
 
 module.exports = controller
